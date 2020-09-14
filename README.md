@@ -34,5 +34,24 @@ ZeroSecrets keeps your passwords on what is essentially a separate computer whic
 
 ZeroSecrets presents a browser interface you can use to interact with the device.  For added security it is a good idea to use 2 browsers.  Use one brower (such as FireFox) to access your ZeroSecrets device, and use a separate browser to access the internet.  You can copy passwords from your ZeroSecrets browser into the web forms on your other browser.  Modern browsers do a great job of defending against attacks against the copy paste buffer and for a piece of Malware to escalate priveleges to the level where it can jump from one brower process to another is nearly impossible using modern OS with modern browsers.  It's not impossible but it is VERY unlikely.  But if the attacker has gotten that level of permission it's game over anyhow because the can just as easily monitor your keystrokes as you type in your password, so while it is a threat it is not as likely a threat as the more common attack vectors such as password stuffing, XSRF etc.
 
+ZeroSecrets will generate cryptographically random passwords for you of any length you desire.  You can specify an added parameter which generates variable length passwords in a range of minimum to maximum characters to make the attackers job even harder.
+
+Certain web sites may not allow you to paste a password into their web form.  You can request ZeroSecrets to generate passwords in such a way as to enable you to easily type the password in by grouping alphanumeric charcters using a separator character.  The idea is that long random passwords make life hard for someone trying to do a dictionary attack.  In fact it makes dictionary attacks useless. You can change the grouping size for example groups of 4, 5, 6, 7, or 8 characters in a group.  The separator character is considered part of the password so you should choose a character that is acceptable to the web form validation. But when the password is displayed it is displayed in both a pasteable format and in an eye friendly format.  For examle:
+
+    Length: 32; Grouping: 4; Separator: '-'; Case varies in group
+    Pasteable: G8ib-Ym89-233X-59kx-vI8Z-WMAr-Q8h6-h7ty
+    Eye Friendly: G8ib - Ym89 - 233X - 59kx - vI8Z - WMAr - Q8h6 - h7ty
+    
+    Length 21; Grouping: 7; Separator: ':'; Case consistent per group
+    Pasteable: g8ibym8:9233X59:kxvi8zc
+    Eye Friendly: g8ibym8 : 9233X59 : kxvi8zc
+    
+    Length 20-25; Grouping: 4,7; Separators: "-,#, %"; Case consistent per group
+    Pasteable: GI5X-4VIY93C#6h6a212%3nmh
+    Eye Friendly: GI5X - 4VIY93C # 6h6a212 % 3nmh
+    
+Case consistency per group makes it a little easier to type the password if you can't copy and paste by enabling you to toggle between upper and lower case with the CAPS-LOCK feature on your computer.
+    
+
 [^1]: https://en.wikipedia.org/wiki/Zero-configuration_networking
 [^2]: https://www.welivesecurity.com/2020/03/19/security-flaws-found-in-popular-password-managers/
