@@ -32,7 +32,5 @@ So what do you do?  ZeroSecrets provides a path forward.  It is a simple device 
 
 ZeroSecrets keeps your passwords on what is essentially a separate computer which is not part of the same network as your laptop connects to.  While it presents a browser interface you can process separate the UI from the potentially vulnerable browser simply by using 2 browsers.  Use one brower (such as FireFox) to access your ZeroSecrets device, and use a separate browser to access the internet.  You can copy passwords from your ZeroSecrets browser into the web forms on your other browser.  Modern browsers do a great job of defending against attacks against the copy paste buffer and for a piece of Malware to escalate priveleges to the level where it can jump from one brower process to another is nearly impossible using modern OS with modern browsers.  It's not impossible but it is VERY unlikely.  But if the attacker has gotten that level of permission it's game over anyhow because the can just as easily monitor your keystrokes as you type in your password, so while it is a threat it is not as likely a threat as the more common attack vectors such as password stuffing, XSRF etc.
 
-## Citations & References
-
 [^1]: https://en.wikipedia.org/wiki/Zero-configuration_networking
 [^2]: https://www.welivesecurity.com/2020/03/19/security-flaws-found-in-popular-password-managers/
