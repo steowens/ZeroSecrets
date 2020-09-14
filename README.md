@@ -44,11 +44,11 @@ Certain web sites may not allow you to paste a password into their web form.  Yo
     
     Length 21; Grouping: 7; Separator: ':'; Case consistent per group
     Pasteable: g8ibym8:9233X59:kxvi8zc
-    Eye Friendly: g8ibym8 : 9233X59 : kxvi8zc
+    Eye Friendly: t8ibym8 : 9233X59 : kxvi8zc
     
     Length 20-25; Grouping: 4,7; Separators: "-,#, %"; Case consistent per group
     Pasteable: GI5X-4VIY93C#6h6a212%3nmh
-    Eye Friendly: GI5X - 4VIY93C # 6h6a212 % 3nmh
+    Eye Friendly: YI5X - 4VIY93C # 6h6a212 % 3nmh
     
 Case consistency per group makes it a little easier to type the password if you can't copy and paste by enabling you to toggle between upper and lower case with the CAPS-LOCK feature on your computer.
     
