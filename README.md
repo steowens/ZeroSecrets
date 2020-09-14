@@ -18,6 +18,8 @@ When properly configured the networking diagram looks something like this:
 
 ![Zero Secrets Network Diagram](/doc/images/ZeroSecretsNetworkDiagram.png)
 
+The term properly configured applies to configuration of the ZeroSecrets device.  The above diagram shows a typical home network with multiple threat sources inside the firewall.
+
 Even if the device were compromised somehow it would not be able to call back out to command control without the assistance of some sort of bridge installed by the hacker on your corporate laptop. Again, your endpoint security should be set up to protect your laptop from such an attack via corporate antivirus and other endpoint protection mechanisms.
 
 So putting aside the issues of "What if my laptop is compromised by a hacker?" which is not the primary threats a ZeroSecrets device is intended to defend against, what does it defend against?
